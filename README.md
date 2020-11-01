@@ -1,2 +1,2 @@
-# comet-backend-api
-The backend api for comet 
+# Comet App
+A public issue project for Comet App
