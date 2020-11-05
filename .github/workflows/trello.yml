@@ -1,0 +1,12 @@
+name: Sync with Trello
+
+on:
+  issues: 
+    types: ['opened']
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Link GitHub Issue and Pull Request with Trello Card
+          uses: jessicazu/trello-github-actions@v1.0
